@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutY="76.0" prefHeight="324.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA; -fx-border-radius: 100;">
+         <children>
+            <TextField fx:id="login_field" layoutX="187.0" layoutY="81.0" prefHeight="25.0" prefWidth="327.0" promptText="Login" style="-fx-background-color: #FAFAFA; -fx-border-color: red; -fx-border-radius: 30;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="password_field" layoutX="187.0" layoutY="150.0" prefHeight="25.0" prefWidth="327.0" promptText="Password" style="-fx-background-color: #FAFAFA; -fx-border-color: red; -fx-border-radius: 30;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Label fx:id="golosowanie_text" layoutX="288.0" layoutY="14.0" prefHeight="54.0" prefWidth="126.0" text="Golosowanie" textFill="#d01313">
+               <font>
+                  <Font name="Chiller" size="37.0" />
+               </font>
+            </Label>
+            <Button fx:id="enterButton" layoutX="253.0" layoutY="223.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="195.0" style="-fx-background-color: #fafafa; -fx-border-color: red; -fx-border-radius: 15;" text="WHOD" textFill="#cbcc1b">
+               <font>
+                  <Font name="Chiller" size="41.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="eblia_text" layoutX="281.0" layoutY="14.0" prefHeight="54.0" prefWidth="139.0" text="Welcome!" textFill="#d01313">
+         <font>
+            <Font name="Chiller" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="sosatButton" layoutX="580.0" layoutY="18.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="106.0" style="-fx-background-color: #f39c63;" text="Login" textFill="#0a11c7">
+         <font>
+            <Font name="Chiller" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

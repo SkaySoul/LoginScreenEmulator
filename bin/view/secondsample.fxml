@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SecondController">
+   <children>
+      <AnchorPane layoutY="76.0" prefHeight="324.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA; -fx-border-radius: 100;">
+         <children>
+            <Label fx:id="golosowanie_text" layoutX="117.0" layoutY="7.0" prefHeight="147.0" prefWidth="475.0" text="Golosuj nie golosuj,  wse rawno poluczish..." textFill="#d01313">
+               <font>
+                  <Font name="Chiller" size="37.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imageButtonHuj" fitHeight="180.0" fitWidth="133.0" layoutX="301.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pashok.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="eblia_text" layoutX="281.0" layoutY="14.0" prefHeight="54.0" prefWidth="139.0" text="Eblia Dikaya" textFill="#d01313">
+         <font>
+            <Font name="Chiller" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
